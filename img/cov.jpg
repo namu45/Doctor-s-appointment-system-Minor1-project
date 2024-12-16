@@ -1,0 +1,1323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="font" href="/static/fonts/fontello/fontello.woff2" type="font/woff2" crossorigin="anonymous">
+    <link href="/static/css/main.min.css" rel="stylesheet preload">
+    <link href="/static/img/favicon.ico" rel="shortcut icon">
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link  rel="stylesheet"   href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer></script>
+    <link rel="preload" as="image" href="/static/img/mobile/page-main/page-main-content-header.jpg" />
+
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MRRN5ZF');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Hotjar Tracking Code for https://demigos.com -->
+	<script>
+	    (function(h,o,t,j,a,r){
+	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+	        h._hjSettings={hjid:1546565,hjsv:6};
+	        a=o.getElementsByTagName('head')[0];
+	        r=o.createElement('script');r.async=1;
+	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+	        a.appendChild(r);
+	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c7494958e281031666aaf304e/a6e2510bb92653174b063f717.js");</script>
+    
+
+    
+
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Demigos">
+<meta property="og:title" content="Doctor Appointment App Development: Benefits, Features &amp; Cost">
+<meta property="og:description" content="What does it take to doctor appointment app development? How can it redefine the quality of the care you provide? Don’t waste any more time looking for the answers.">
+<meta property="og:url" content="https://demigos.com/blog-post/doctor-appointment-app-development/">
+<meta property="og:locale" content="en_US">
+<meta property="og:rich_attachment" content="true">
+
+<title>Doctor Appointment Application Development: Benefits, Features &amp; Cost</title>
+<meta name="description" content="What does it take to doctor appointment app development? How can it redefine the quality of the care you provide? Don’t waste any more time looking for the answers.">
+
+<meta property="og:image" content="https://demigos.com/media/cache/9e/41/9e415609901cf06d158a3d08cfbb130c.jpg">
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="315">
+<meta property="og:image:alt" content="Demigos">
+
+<meta property="fb:profile_id" content="demigoscompany" />
+<meta property="fb:app_id" content="1949238098652657" />
+
+<link rel="image_src" href="https://demigos.com/media/cache/9e/41/9e415609901cf06d158a3d08cfbb130c.jpg" />
+
+
+
+</head>
+<body>
+
+
+
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '1949238098652657',
+            xfbml      : true,
+            version    : 'v2.10'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+
+<div class="header-page-placeholder"></div>
+
+<header id="page-header" class="header-page">
+    <div class="container main-nav">
+        <a id="site-logo--header" class="header-logo" href="/">
+            <img src="/static/img/logo-header.svg" alt="Demigos" title="Demigos">
+        </a>
+
+        <nav class="menu-global-wrap hidden-xs">
+            <ul class="menu-global nav navbar-nav list-inline">
+                
+                
+                <li    class="agetech-link --flex">
+                        <div class="agetech-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                                <path d="M0 13H4L6.5 4L11.5 20.5L16 9L18 13H22" stroke="#ED5A67" stroke-width="2"/>
+                                </svg>        
+                        </div>
+                        
+                    
+
+					<a href="/agetech/">AGETECH</a>
+                </li>
+
+                
+                <li   class="agetech-link --flex">
+                    <div class="agetech-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                            <rect x="5" width="6" height="15" fill="#ED5A67"/>
+                            <rect x="16" y="5" width="5" height="16" transform="rotate(90 16 5)" fill="#ED5A67"/>
+                            </svg>
+                    </div>
+                <a href="/healthtech/">HEALTHTECH</a> 
+                </li>
+				
+                
+                
+                <li class='active' class="padding-right-20">
+                    <a id="nav-site--header-main--cases" class="scroll-to-cases" href="/#cases">CASES</a>
+                </li>
+                <li class="dropdown-wrapper">
+                    <a>  
+              <div class=" dropdown-material form-group-material" id="header-dropdown">
+                    <button class="btn dropdown-material-btn dropdown-btn" type="button">
+                    <span class="caret"></span>
+
+                        <label for="contacts-budget" class="form-label">
+                                <a class="navbar-dropdown"> ABOUT US </a>
+                        </label>
+
+                        <span class="dropdown-value"></span>
+                        
+                    </button>
+                    <ul class="dropdown-material-menu dropdown-menu" aria-labelledby="budget">
+                        <li>
+                                
+                            <li >
+                                <a id="nav-site--header-main--services" href="/services/">Services</a>
+                            </li>    
+                        </li>
+                        <li>
+                            
+                            <li >
+                                <a id="nav-site--header-main--team" href="/team/">Team</a>
+                            </li>    
+                        </li>
+                        <li>
+                            
+                            <li >
+                                <a id="nav-site--header-main--testimonials" href="/testimonials/">Testimonials
+                                </a>
+                            </li>
+                           
+                            
+                        </li>
+                    </ul>
+                </div>
+                    </a> 
+                </li>
+
+               
+
+                    
+               
+                
+                <li class='active' class="padding-right-20">
+                    <a id="nav-site--header-main--blog" href="/blog/">BLOG</a>
+                </li>
+                
+                
+                <li class="attention ">
+                    <a id="nav-site--header-main--contacts" href="/contacts/"><strong>GET IN TOUCH</strong></a>
+                </li>
+            </ul>
+        </nav>
+
+        <button id="nav-site--header-mobile--open" type="button" class="navbar-toggle navbar-toggle-open" data-toggle="modal" data-target="#navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+    <div class="modal fade hidden-sm hidden-md hidden-lg" id="navbar" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button  id="nav-site--header-mobile--close" type="button" class="navbar-toggle navbar-toggle-close" data-dismiss="modal">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <nav class="menu-global-wrap">
+                <ul class="menu-global nav navbar-nav list-inline">
+					<li class="agetech-link">
+					    <a href="/agetech/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                                <path d="M0 13H4L6.5 4L11.5 20.5L16 9L18 13H22" stroke="#ED5A67" stroke-width="2"/>
+                            </svg>
+                            AGETECH
+                        </a>
+					</li>
+					<li class="healthcare-link">
+						<a href="/healthtech/">HEALTHTECH</a>
+					</li>
+                    <li>
+                        <a id="nav-site--header-mobile--cases" class="scroll-to-cases" href="/#cases">CASES</a>
+                    </li>
+
+                    <li class="dropdown-mobile">
+                        <a href="" class="link-disabled"> ABOUT  US</a>
+                            <div class="triangle">
+                            </div>
+                    </li>
+                        <div class="dropdown-mobile__menu  closed">
+                            
+                            <li >
+                                <a id="nav-site--header-mobile--services" href="/services/">SERVICES</a>
+                            </li>
+                            
+                            <li >
+                                <a id="nav-site--header-main--team" href="/team/">TEAM</a>
+                            </li>
+                            
+                            <li >
+                                <a id="nav-site--header-main--testimonials" href="/testimonials/">TESTIMONIALS</a>
+                            </li>
+                        </div>
+                        
+
+                    
+                    
+                    <li class='active'>
+                        <a id="nav-site--header-mobile--blog" href="/blog/">BLOG</a>
+                    </li>
+                    
+                    <li class="attention ">
+                        <a id="nav-site--header-mobile--contacts" href="/contacts/"><strong>GET IN TOUCH</strong></a>
+                    </li>
+                </ul>
+
+                <div class="share-wrap">
+                    <a id="nav-outer--header-mobile--facebook" class="share share-f" href="//www.facebook.com/demigoscompany" title="Facebook" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a id="nav-outer--header-mobile--linkedin" class="share share-in" href="//www.linkedin.com/company-beta/10852266" title="Linkedin" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a id="nav-outer--header-mobile--upwork" class="share share-up" href="//www.upwork.com/companies/~01604368bdd722aa11" title="Upwork" target="_blank">
+                        <i class="icon-upwork"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+    
+    <div class="sub-header">
+        <div class="sub-header-top">
+            <div class="container full">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="dropdown pull-left">
+                            <button id="blog-post--categories--mobile-select" class="btn dropdown-toggle visible-xs-inline-block" type="button" data-toggle="dropdown">
+                                <span class="dropdown-value">
+                                Healthcare
+								</span>
+                                <!-- <i class="fa fa-down-open"></i> -->
+                                <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.581162 0.565661C0.716815 0.565336 0.848279 0.623398 0.952732 0.729771L4.06464 3.92635L7.18235 0.843935C7.24174 0.784666 7.31007 0.740405 7.38342 0.713696C7.45677 0.686988 7.53369 0.678359 7.60977 0.688305C7.68584 0.698251 7.75956 0.726575 7.8267 0.771651C7.89383 0.816727 7.95306 0.877666 8.00097 0.950963C8.0492 1.02395 8.08521 1.10793 8.10694 1.19807C8.12867 1.28822 8.1357 1.38275 8.1276 1.47625C8.11951 1.56974 8.09646 1.66034 8.05979 1.74285C8.02311 1.82536 7.97352 1.89815 7.91388 1.95703L4.43041 5.40334C4.32652 5.50829 4.19621 5.56566 4.06174 5.56566C3.92726 5.56566 3.79695 5.50829 3.69307 5.40334L0.209591 1.83573C0.150802 1.77583 0.102207 1.70227 0.0665868 1.61925C0.0309671 1.53623 0.00902304 1.4454 0.00201163 1.35194C-0.00499882 1.25849 0.00306164 1.16425 0.0257295 1.07463C0.0483984 0.985009 0.0852293 0.901765 0.134115 0.829664C0.18814 0.747814 0.256249 0.681688 0.333546 0.636041C0.410842 0.590393 0.495407 0.566358 0.581162 0.565661Z" fill="#8C8C8C"/>
+                                </svg>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="search-type">
+                                <li>
+                                	<a id="blog-post--categories--select-Latest" href='/blog/'>Latest</a>
+                                </li>
+                                
+                                <li >
+                                	<a id="blog-post--categories--select-business" href='/blog/business/'>Business</a>
+                                </li>
+                                
+                                <li >
+                                	<a id="blog-post--categories--select-startups" href='/blog/startups/'>Startups</a>
+                                </li>
+                                
+                                <li class='active'>
+                                	<a id="blog-post--categories--select-healthcare" href='/blog/healthcare/'>Healthcare</a>
+                                </li>
+                                
+                                <li >
+                                	<a id="blog-post--categories--select-podcast" href='/blog/podcast/'>Podcast</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-5 ">
+                        <div class="subscribe-email hidden-xs">
+                            <form id='form-subscribe-blog-post' method='POST'>
+                                <div class="form-required">
+                                    <button id="blog-post--header-main-subscribe--btn-subscribe" class="btn btn-getIt pull-right" type="submit">Subscribe</button>
+                                    <div class="over-hid">
+                                        <input class="form-control" name="email" type="email" placeholder="Enter your email">
+                                    </div>
+                                </div>
+								<div class="text-center forms-thank forms-thank--small hidden">
+									<p>THANK YOU FOR SUBSCRIBING!</p>
+									<p>We are glad that you are with us.</p>
+								</div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="visible-xs-block">
+            <div class="sub-header-bottom container full hidden">
+                <div class="search-block form-group form-group-material">
+                    <a id="blog-post--header--search" class="pull-right" href="#"><i class="fa fa-search"></i></a>
+                    <div class="over-hid">
+                        <input class="form-control" type="text" placeholder="Search...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</header>
+
+
+<style>
+.blog-post-content td > p {
+  margin: 10px;
+}
+</style>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+<main class="page-blog-post">
+    <a id="toTop">
+        <i class="fa fa-angle-up"></i>
+    </a>
+<div class="blog-page">
+    <div class="container full">
+        <div class="breadcrumbs">
+            <div class="item"><a href="/">Demigos</a></div>
+            <div class="item"><a href="/blog/">Blog</a></div>
+            <div class="item"><a href="/blog/healthcare/">Healthcare</a></div>
+            <div class="item"><span>Doctor Appointment App Development: Benefits, Features &amp; Cost</span></div>
+        </div>
+    </div>
+    <div class="content-header content-header-page-blog-post">
+        <div class="section-shadow"></div>
+
+        <picture class="pic-bg img-resizable">
+            
+            <source srcset="/media/cache/8e/6b/8e6b964c9e7563d1b60b145504493967.jpg" media="(max-width: 768px)">
+            
+            
+            <source srcset="/media/cache/0d/b8/0db81e44c358757c4b5377137f65abcc.jpg" media="(max-width: 992px)">
+            
+            
+            <img src="/media/cache/61/e8/61e8be99d482c40c4f294b577a7d2e92.jpg">
+            
+        </picture>
+
+        <h1 class="title">Doctor Appointment App Development: Benefits, Features &amp; Cost</h1>
+        <p class="description">
+            Published on <strong>March 15, 2021</strong>
+        </p>
+    </div>
+    <div class="container full">
+        <div class="row">
+            <div class="col-left-container ">
+            <!-- <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"> -->
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="share-aside text-center">
+                            <div class="title hidden-xs text-uppercase">Share</div>
+                            
+                            <a id="blog--share-post--top-facebook" class="share-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdemigos.com%2Fblog-post%2Fdoctor-appointment-app-development%2F" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
+                            <a id="blog--share-post--top-linkedin" class="share-in" href="http://www.linkedin.com/shareArticle?mini=true&title=Doctor Appointment App Development: Benefits, Features &amp; Cost&summary=Published%20on%20March 15, 2021%20by%20%2C%20&source=demigos.com&url=http%3A%2F%2Fdemigos.com%2Fblog-post%2Fdoctor-appointment-app-development%2F" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a>
+                            <a id="blog--share-post--top-twitter" class="share-tw" href="https://twitter.com/share?text=Doctor Appointment App Development: Benefits, Features &amp; Cost:&hashtags=Demigos,ITsolutions&url=http%3A%2F%2Fdemigos.com%2Fblog-post%2Fdoctor-appointment-app-development%2F" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="blog-post-content">
+                            
+                            <p>Do you often have throngs of patients lining up in your <a href="https://demigos.com/blog-post/how-to-launch-a-virtual-waiting-room-in-a-hospital/">virtual waiting room</a>? This is a telltale sign that you haven&rsquo;t managed your appointment booking process well.</p>
+
+<p>A surefire way to rectify this situation is to implement medical appointment software. Whether you choose an app or a web-based platform, it can be a godsend for your staff and patients. No doubt, they hate the idea of being packed cheek by jowl in a tiny room when the COVID-19 pandemic is raging.</p>
+
+<p>Let&rsquo;s start with the design and development of an online doctor appointment booking system and why patients expect you to have one. In this article, we&rsquo;ll show you how you can meet their expectations.</p>
+
+<h2>Doctor appointment booking app development and the issues it solves</h2>
+
+<p>The benefits of apps to schedule doctor appointments are twofold. First, they provide a simple way for patients to arrange visits with the healthcare providers of their choice. And secondly, these systems store all appointments and data entries under the same roof. Your hospital staff will thank you.</p>
+
+<p>Here&rsquo;s how it works in the real world:</p>
+
+<ul>
+	<li>
+	<p>From a patient&rsquo;s perspective. With an app, patients no longer need to call your office to schedule appointments. Instead, in just a few taps or clicks, they can arrange visits with their doctors at a time that works for them. This saves both you and your patients time.</p>
+	</li>
+	<li>
+	<p>From a clinic&rsquo;s perspective. An app or a web-based platform is the backbone of a clinic booking system software. It automates the appointment booking processes your staff may have trouble handling manually (e.g., entering patients&rsquo; personal details, setting up doctors&rsquo; time slots, dealing with paperwork, etc.). An app is also particularly helpful for tracking revisits and improving clinic-patient communication. This can result in less hassle when confirming, canceling, or rescheduling appointments.</p>
+	</li>
+</ul>
+
+<p>But how does this solution help healthcare businesses save money?</p>
+
+<p>When your hospital appointment management system is based on an app or a web platform, you can minimize unused time slots. That&rsquo;s because no-shows and cancellations can have a direct bearing on your bottom line.</p>
+
+<p>With an app, you can set reminders and notifications to keep no-shows at bay. And even if patients miss their visits, you can reschedule back-to-back appointments straight away to avoid losing money due to an unused time slot.</p>
+
+<p>By developing a medical appointment booking system, clinics can also prevent overlapping appointments. They are the bane of all healthcare businesses. Double bookings often result from human error, and an automated solution can help prevent them from being made in the first place.</p>
+
+<p>This is all too important to disregard amid the pandemic turmoil. You want to minimize the number of patients in your <a href="https://demigos.com/blog-post/how-to-launch-a-virtual-waiting-room-in-a-hospital/">virtual waiting room</a> to ensure you meet social-distancing requirements.</p>
+
+<h2>The basic doctor appointment app features to know</h2>
+
+<p><img alt="doctor appointment booking app development" src="/media/blog/upload/2021/03/15/shutterstock_703243315.jpeg" style="height:567px; width:850px" />Before you decide to build an app for booking doctor appointments, you will need to work out which features you want it to have.</p>
+
+<p>Below are five of the essential features you should consider embedding into your doctor appointment app.</p>
+
+<h3>Doctor profiles</h3>
+
+<p>An app is where patients connect with their potential doctors for the first time. That&rsquo;s why physicians&rsquo; profiles should be clear and detailed. They should include photos, core competencies, experience, and all the necessary information to facilitate the patient&rsquo;s decision-making process. You can also consider including consultation fees and treatment costs.</p>
+
+<h3>Patient profiles</h3>
+
+<p>Whether it&rsquo;s an initial appointment or a follow-up visit, doctors should have easy access to patients&rsquo; information. And an app is a great place to store this information. It allows a doctor to retrieve any details about a patient (name, age, medical record, treatment plan, insurance information, etc.) before attending an appointment.</p>
+
+<h3>Search option</h3>
+
+<p>If you have an extensive database, patients might find it difficult to search through all those profiles. That&rsquo;s where a search option can be helpful. It allows patients to filter the profiles by desired treatments, doctor ratings, locations, and more.</p>
+
+<h3>Booking form</h3>
+
+<p>Ideally, arranging medical visits should be as easy as going to an online doctor appointment website or opening an app. Once a patient chooses a physician, they should be able to easily navigate available appointment dates and time slots. The fewer steps it takes to book a visit, the better.</p>
+
+<h3>Notifications</h3>
+
+<p>Here&rsquo;s a rule of thumb. If you&rsquo;re about to develop a hospital appointment booking app, you should consider implementing reminders and notifications to reduce unused time slots. They can be sent to patients before scheduled appointments to confirm in-office visits, minimizing missed bookings.</p>
+
+<h2>Add-on features worth considering</h2>
+
+<p><img alt="Some clinics choose to build an app to make doctor appointments and upgrade it with an online consultation feature." src="/media/blog/upload/2021/03/15/333333.jpeg" style="height:567px; width:850px" /></p>
+
+<p>While these five basic features may suffice, there is also a plethora of sophisticated add-ons you can consider. After all, a souped-up solution calls for something more elaborate. Here are five extra-value features that can make your doctor appointment app stand out from the competition.</p>
+
+<h3>Medical records</h3>
+
+<p>It&rsquo;s always a good idea to be transparent with your patients, allowing them to keep tabs on how their treatments progress and access their test results. You can even include an upload option so that they can share diagnostic scans with their physicians.</p>
+
+<h3>Electronic prescriptions</h3>
+
+<p>This <a href="https://demigos.com/blog-post/e-prescription-software-development/">e-prescription feature</a> enables patients to request refills directly from your app. Why is this important? It saves time for both you and your patients. They can now avoid traveling to your clinic, and you can write prescriptions faster. Refills are then available at in-network pharmacies.</p>
+
+<h3>Payments</h3>
+
+<p>Allowing patients to pre-pay for their consultations and treatments is especially convenient. Incorporating this option into your app can reduce your no-show rate, as paid appointments hardly ever turn into missed ones. Read&nbsp;also an article about <a href="https://demigos.com/blog-post/how-to-develop-custom-medical-billing-software/">customized medical billing software development</a>.</p>
+
+<h3>Telemedicine</h3>
+
+<p>Even though including a <a href="https://demigos.com/blog-post/how-to-integrate-a-telehealth-platform/">telemedicine</a> feature will likely drive up the cost of on-demand doctor appointment application development, it&rsquo;s definitely worth it. By offering online consultations, you can reach those patients who are unable to attend face-to-face meetings.</p>
+
+<h3>Directions</h3>
+
+<p>Directions are essential if you have many locations. When directions are enabled in your app or web platform, patients can easily find the nearest clinic and how to get there. Coupled with business hours and contact details, directions take the guesswork out of medical visits.</p>
+
+<h2>Top-3 inspiring clinic appointment booking apps</h2>
+
+<p><img alt="ZocDoc, Doctor On Demand, and Practo are among the best medical appointment software solutions these days." src="/media/blog/upload/2021/03/15/4.jpeg" style="height:567px; width:850px" /></p>
+
+<p>Doctor appointment app development isn&rsquo;t about reinventing the wheel. You&rsquo;re designing a solution to streamline the communication between you and your patients. And sometimes, learning from others that have already done it well is the best thing you can do.</p>
+
+<p>Let&rsquo;s hone in on the top-three apps patients keep raving about:</p>
+
+<ul>
+	<li>
+	<p>ZocDoc. This is the epitome of appointment scheduling. With ZocDoc, it only takes three steps for patients to arrange their visits with their physicians. They can choose from a selection of doctors in over 50 specialties. ZocDoc even allows you to scan insurance plans and match providers that cover the sought-after treatments. Pair this with telemedicine, and it&rsquo;s clear why it takes the lead.</p>
+	</li>
+</ul>
+
+<ul>
+	<li>
+	<p>Doctor On Demand. If you&rsquo;re contemplating online consultations for your system, looking at this app is worth your while. It connects patients with doctors USA-wide, whether they have insurance in place or not. It also offers 24/7 access to quality care with both online and face-to-face visits.</p>
+	</li>
+	<li>
+	<p>Practo. With five million downloads on Google Play, there must be something exceptional about this app. Actually, Practo is so popular because it&rsquo;s more than just a doctor appointment app. It enables patients to see their doctors online, upload prescriptions, set pill reminders, schedule physicals, and order medication. Practo is jam-packed with add-ons and health tips, building value for its users.</p>
+	</li>
+</ul>
+
+<p>Do you feel inspired already? Then let&rsquo;s get down to development.</p>
+
+<h2>How to create a doctor appointment app: step by step guide</h2>
+
+<p><img alt="On-demand doctor appointment application development involves five steps: research, planning, design, testing, and launch." src="/media/blog/upload/2021/03/15/5.jpeg" style="height:567px; width:850px" /></p>
+
+<p>It&rsquo;s one thing to just roll out an app; it&rsquo;s another to make it scalable, fail-proof, and ready for thousands or even millions of users.</p>
+
+<p>That&rsquo;s why you shouldn&rsquo;t adopt a piecemeal approach. Make sure all of your steps intertwine for the end result to translate into your clinic&rsquo;s pride and joy.</p>
+
+<h3>Step 1. Research</h3>
+
+<p>Let&rsquo;s face it: you&rsquo;re not going to become a trailblazer in patient appointment mobile app development. So, there&rsquo;s nothing wrong with learning from the mistakes your competitors have already made. You can even turn them into your assets.</p>
+
+<p>In the research phase, you:</p>
+
+<ul>
+	<li>
+	<p>Take a closer look at your competitors&rsquo; apps</p>
+	</li>
+	<li>
+	<p>Analyze their pros and cons</p>
+	</li>
+	<li>
+	<p>Spot missed opportunities</p>
+	</li>
+	<li>
+	<p>Combine all of this with your patients&rsquo; needs</p>
+	</li>
+</ul>
+
+<p>You can now use your research findings to move onto the next step of your app development journey.</p>
+
+<h3>Step 2. Planning</h3>
+
+<p>This is where you decide on the features to implant into your app as well as the technology to rely on (more on this later). You will need to methodically plan the process down to the last detail, all while setting milestones for your roadmap.</p>
+
+<p>At this stage, you should also check with your local regulations. Since doctor appointment solutions use patients&rsquo; personal information, you need to make sure it&rsquo;s adequately protected. This involves thinking through encryption technologies and other technical safeguards for your software.</p>
+
+<h3>Step 3. Design and prototyping</h3>
+
+<p>Now your research-backed plan moves into a more tangible phase. During the design and prototyping step, you should:</p>
+
+<ul>
+	<li>
+	<p>Decide on colors, patterns, and other visuals in your app</p>
+	</li>
+	<li>
+	<p>Build a user interface</p>
+	</li>
+	<li>
+	<p>Create an easy-to-navigate booking system</p>
+	</li>
+	<li>
+	<p>Design a menu and all clickable features</p>
+	</li>
+	<li>
+	<p>Fine-tune it for iOS and Android</p>
+	</li>
+</ul>
+
+<p>At this stage, it doesn&rsquo;t have to be picture-perfect. Think of it as a starting point for collecting feedback.</p>
+
+<h3>Step 4. Testing</h3>
+
+<p>You can&rsquo;t build a doctor appointment app without letting patients (and physicians!) give it a test run first. This is where you check how intuitive your MVP is from both sides and what tweaks need to be made. It pays to ask patients and healthcare providers for some feedback to improve their experience down the road.</p>
+
+<p>Usability aside, testing is also about how stable and secure your app is. It involves simulating extreme load conditions to monitor whether it can survive in real-life scenarios.</p>
+
+<h3>Step 5. Launch</h3>
+
+<p>Once you&rsquo;ve made the final feedback-based improvements, your app is ready for its debut. But it doesn&rsquo;t simply end with uploading your app to App Store.</p>
+
+<p>Maintaining your app is also critically important. You don&rsquo;t want your patients&rsquo; experience to be marred by technical glitches, nor should you give up adding new features later on. Regular updates are key to a killer app, especially in the healthcare industry.</p>
+
+<h3>Technology stack&nbsp;for doctor appointment mobile app development</h3>
+
+<p><img alt="Python is a tried-and-true programming language for backend doctor appointment app development." src="/media/blog/upload/2021/03/15/6.jpeg" style="height:567px; width:850px" /></p>
+
+<p>A decent tech stack allows you to build an app to make doctor appointments and keep it up and running. That&rsquo;s why the technology you choose to use should be top-performing.</p>
+
+<p>Of course, no two tech stacks are the same. But the world&rsquo;s leading appointment apps use similar programming languages, frameworks, and tools. Why? Because they get the job done.</p>
+
+<p>Take ZocDoc and Practo. They both rely on Python &mdash; and for good reason. It&rsquo;s a practical choice for the backend as it crams more meaning and function into every line of code. Plus, Python paves the way for an extensive set of frameworks and facilitates app prototype building.</p>
+
+<p>When it comes to the frontend, React Native has proved its worth like nothing else. This framework is all about a smooth UI with flexible third-party integrations. And it&rsquo;s perfect for both iOS and Android. But, if you&rsquo;re looking to hit the App Store, you should also consider Swift.</p>
+
+<p>For the icing on your tech stack cake, you will need to decide on the analytics and push notification tools you&rsquo;re going to use. While GA is always a go-to option for stats and insights, it can be a little bit different when considering appointment reminders. Look at tools like Push IO, APNs for iOS, and Twilio. These will all provide the right features to manage your notifications.</p>
+
+<h3>Online medical appointment system development</h3>
+
+<p>A web platform is another appointment scheduling solution, whether it&rsquo;s coupled with an app or not. It brings the booking system online, allowing more patients to arrange their medical visits.</p>
+
+<p>Similar to app building, web platform development also revolves around:</p>
+
+<ul>
+	<li>
+	<p>Research&nbsp;</p>
+	</li>
+	<li>
+	<p>Planning</p>
+	</li>
+	<li>
+	<p>Web design</p>
+	</li>
+	<li>
+	<p>Testing</p>
+	</li>
+	<li>
+	<p>Platform maintenance</p>
+	</li>
+</ul>
+
+<p>That said, the technology used for this process may be different from that used for app creation. For instance, the frontend is usually beefed up with React instead of React Native, and cloud-based solutions take center stage. They&rsquo;re used to integrate existing management systems and doctor/patient databases into a single platform for real-time data exchange.</p>
+
+<p>With a web platform, there&rsquo;s more room for additional features to complement your booking system. It&rsquo;s also an excellent place to start a blog and share health tips with your patients. Or you can create a standalone section to cover accepted insurance plans, which adds value to the quality of the care you deliver.</p>
+
+<p>Further reading for you: <a href="https://demigos.com/blog-post/how-to-develop-custom-hospital-management-software/">How to build a custom clinic management system</a>&nbsp;and guide on <a href="https://demigos.com/blog-post/custom-medication-tracking-software/">medication tracking software development</a>.</p>
+
+<h2>What&rsquo;s it like to go the Demigos way?</h2>
+
+<p><img alt="Demigos' team can build a doctor appointment app for clinics of all sizes." src="/media/blog/upload/2021/03/15/7.jpeg" style="height:567px; width:850px" /></p>
+
+<p>Some might say it takes too much time to develop a doctor appointment booking app. With Demigos, however, it&rsquo;s easier than you think.</p>
+
+<p>When you team up with us, you&rsquo;re saving yourself the hassle of having to do everything yourself. We can take care of all of the software development steps so that you get your hands on a full-fledged solution straight out of the box.</p>
+
+<p>Over the last five years, Demigos has <a href="https://demigos.com/healthtech/">helped many healthcare startups build custom software</a> that aligns with their business processes. We can also handle third-party integrations, analytics, and HIPAA/GDPR-compliant security solutions.</p>
+
+<p>Whatever features you want your app to have, Demigos can help you make that happen. Our <a href="https://demigos.com/#cases">portfolio</a> is worth a thousand words.</p>
+
+<h2>Can&rsquo;t wait to set the ball rolling?</h2>
+
+<p>If there&rsquo;s one thing that can remedy your administrative headaches and level-up the patient experience, it&rsquo;s doctor appointment software. That&rsquo;s why it&rsquo;s halfway to becoming the new normal in today&rsquo;s healthcare industry. And Demigos can help you stay at the forefront of it.</p>
+
+<p>Let Demigos develop a custom clinic booking system software solution for you. All you have to do is <a href="https://demigos.com/contacts/">contact us</a> to get started.</p>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="blog-post-footer">
+                    <hr>
+                    <p class="description text-center">
+                        Published on <strong>March 15, 2021</strong>
+                    </p>
+        
+                    <div class="share-aside text-center visible-xs-block">
+                        
+                        <a id="blog--share-post--bottom-facebook" class="share-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdemigos.com%2Fblog-post%2Fdoctor-appointment-app-development%2F" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
+                        <a id="blog--share-post--bottom-linkedin" class="share-in" href="//www.linkedin.com/shareArticle?mini=true&title=Doctor Appointment App Development: Benefits, Features &amp; Cost&summary=Published%20on%20March 15, 2021%20by%20%2C%20&source=demigos.com&url=http%3A%2F%2Fdemigos.com%2Fblog-post%2Fdoctor-appointment-app-development%2F" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a>
+                        <a id="blog--share-post--bottom-twitter" class="share-tw" href="//twitter.com/share?text=Doctor Appointment App Development: Benefits, Features &amp; Cost:&hashtags=Demigos,ITsolutions&url=http%3A%2F%2Fdemigos.com%2Fblog-post%2Fdoctor-appointment-app-development%2F" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+        
+                <!-- <div class="text-center section-request">
+
+                    <div class="content-header-page-contacts">
+                        <div class="section-content text-center">
+                            <h2 class="section-title">Do you want to learn more on this topic?</h2>
+                            <p>Leave your request and we will get back to you shortly.</p>
+                        </div>
+                    </div>
+        
+                    
+<div class="contacts-form">
+    <form method='POST' id='form-free-advice'>
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input form-required">
+                    <label for="free-advice-name" class="form-label">Name *</label>
+                    <input type="text" class="form-control" name="name" id="free-advice-name" value="">
+                    <p class="form-control-alert">
+                        Please input a correct name
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input form-required">
+                    <label for="free-advice-email" class="form-label">Email *</label>
+                    <input type="email" class="form-control" name="email" id="free-advice-email" value="">
+                    <p class="form-control-alert">
+                        Please input a correct email
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input form-required">
+                    <label for="free-advice-phone" class="form-label">Phone *</label>
+                    <input type="text" class="form-control" name="phone" id="free-advice-phone" value="">
+                    <p class="form-control-alert">
+                        Please input a correct Phone number
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input">
+                    <label for="free-advice-skype" class="form-label">Skype</label>
+                    <input type="text" class="form-control" name="skype" id="free-advice-skype" value="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input form-required">
+                    <label for="free-advice-description" class="form-label">Your request details *</label>
+                    <input type="text" class="form-control" name="description" id="free-advice-description" value="">
+                    <p class="form-control-alert">
+                        Please describe your request in a few words
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="text-center">
+            <button id='form--free-advice--btn-send' type="submit" class="btn btn-getIt">SEND</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    var csrftoken = 'UQ48iOCj6QxXZuEla5ED7Nk5pQH8bpOwgoYb102yoILw0hMCsuKVnC5MsJDyQ5Ob',
+            urlFreeAdviceAjax = "/advice/";
+</script>
+
+                    
+                    <a id="page-services--type-listing--btn-free-advice" class="btn btn-transparent" href="#" data-toggle="modal" data-target="#free-advice-form">Let's talk</a>
+                </div> -->
+            </div>
+
+            <div class="col-right-container">
+                
+                
+                <div class="author">
+                    
+                    <div class="author__image">
+                        
+                        <img src="/media/cache/7c/a7/7ca7520d05c533367e80c225a060ad09.jpg" alt="">
+                        
+                    </div>
+                    
+
+                    <div class="author__writedBy">
+                        WRITTEN BY
+                    </div>
+
+                    <div class="author__nameSurname">
+                        Ivan Dunskiy
+                    </div>
+
+                    <div class="author__position">
+                        CEO
+                    </div>
+
+                    <div class="author__content">
+                        Ivan has been working in the tech industry for more than 10 years as a Quality Assurance Engineer, Mobile Software Developer, and Product Manager. Co-founder of 2 startups.
+                    </div>
+
+                    <div class="author__links">
+                    
+                     <a class="author__links__link" href="https://www.linkedin.com/in/ivan-dunskiy-73719368/">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                          <path d="M21.3571 0H1.63772C0.734152 0 0 0.74442 0 1.65826V21.3417C0 22.2556 0.734152 23 1.63772 23H21.3571C22.2607 23 23 22.2556 23 21.3417V1.65826C23 0.74442 22.2607 0 21.3571 0ZM6.95134 19.7143H3.54241V8.73795H6.95647V19.7143H6.95134ZM5.24687 7.23884C4.15335 7.23884 3.27031 6.35067 3.27031 5.26228C3.27031 4.17388 4.15335 3.28571 5.24687 3.28571C6.33527 3.28571 7.22344 4.17388 7.22344 5.26228C7.22344 6.3558 6.3404 7.23884 5.24687 7.23884ZM19.7297 19.7143H16.3208V14.375C16.3208 13.1018 16.2951 11.4641 14.5496 11.4641C12.7732 11.4641 12.5011 12.8502 12.5011 14.2826V19.7143H9.09219V8.73795H12.3625V10.2371H12.4087C12.8656 9.37455 13.9797 8.46585 15.6379 8.46585C19.0879 8.46585 19.7297 10.7402 19.7297 13.6973V19.7143Z" fill="black"/>
+                          </svg>
+                     </a>
+                        
+                    
+
+
+                  </div>
+                    </div>
+                
+                
+
+                
+                <div class="sidebar-wrapper">
+                    <div class="sidebar fixed-sidebar" data-top='110' data-target='sidebar-target'>
+                        <a href="https://demigos.com/healthtech/">
+                            
+                            <img src="/media/cache/a0/38/a0387988ba6e31a6597409d4c7d2ed66.png" alt="">
+                            
+                        </a>
+                    </div>
+                </div>
+            
+
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id='sidebar-target'>
+                
+
+<div class="request-form-container">
+    <div class="container">
+        <div class="content-header-page-contacts">
+            <div class="section-content text-center">
+                <h2 class="section-title">Leave your contact details</h2>
+                <p>We will be shortly to schedule a call</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-push-2">
+
+                <div class="contacts-form">
+                    <form method='POST' id='form-free-advice'>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="form-group form-group-material form-g-m-input form-required">
+                                    <label for="free-advice-name" class="form-label">Name *</label>
+                                    <input type="text" class="form-control" name="name" id="free-advice-name" value="">
+                                    <p class="form-control-alert">
+                                        Please input a correct name
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-group form-group-material form-g-m-input form-required">
+                                    <label for="free-advice-email" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" name="email" id="free-advice-email" value="">
+                                    <p class="form-control-alert">
+                                        * Please input a correct email
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-group form-group-material form-g-m-input form-required">
+                                    <label for="free-advice-phone" class="form-label">Phone *</label>
+                                    <input type="text" class="form-control" name="phone" id="free-advice-phone" value="">
+                                    <p class="form-control-alert">
+                                        Please input a correct Phone number
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-group form-group-material form-g-m-input">
+                                    <label for="free-advice-skype" class="form-label">Skype</label>
+                                    <input type="text" class="form-control" name="skype" id="free-advice-skype" value="">
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group form-group-material form-g-m-input form-required">
+                                    <label for="free-advice-description" class="form-label">Your request details *</label>
+                                    <input type="text" class="form-control" name="description" id="free-advice-description" value="">
+                                    <p class="form-control-alert">
+                                        Please describe your request in a few words
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <br>
+                        <div class="text-center">
+                            <button id='form--free-advice--btn-send' type="submit" class="btn btn-getIt">SEND</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var csrftoken = 'UQ48iOCj6QxXZuEla5ED7Nk5pQH8bpOwgoYb102yoILw0hMCsuKVnC5MsJDyQ5Ob',
+            urlContactRequestAjax = "/contact-request/";
+</script>
+            </div>
+        </div>
+                
+    
+    </div>
+    <div class="container-related-articles">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+                    <div class="related-articles">
+                        <h3 class="section-title section-title-h3">Related Articles</h3>
+            
+                        <div class="posts-list">
+                        
+                            
+                            
+
+<div class="posts-list-item">
+    <div class="posts-list-shadow">
+        
+        
+        
+        <a id="blog--goto-post--id-43" href="/blog-post/interoperability-in-healthcare/">
+            <div class="text-center over-hid">
+                <img id="blog--goto-post--img-id-43" src="/media/cache/97/1b/971bf28739a1016c1927efd4cb93b045.jpg" alt="Blog-title">
+            </div>
+    
+            <h3 id="blog--goto-post--title-id-43" class="title">
+                Interoperability in Healthcare: Challenges, Solutions &amp; Examples
+            </h3>
+        </a>
+        
+        <p class="description">
+            Looking for the best ways to deliver value-based care? Your first step is to master healthcare interoperability within your clinic. Here’s what you need to know.
+        </p>
+        <a class="read-more" href="/blog-post/interoperability-in-healthcare/">
+            <div>
+                Read more 
+            </div>
+            <div class="arrow"></div>
+        </a>	
+    </div>
+</div>
+                            
+                            
+
+<div class="posts-list-item">
+    <div class="posts-list-shadow">
+        
+        
+        
+        <a id="blog--goto-post--id-41" href="/blog-post/telemedicine-software-development/">
+            <div class="text-center over-hid">
+                <img id="blog--goto-post--img-id-41" src="/media/cache/9a/55/9a5584f4fb2c00302ca86ca7ebc0d540.jpg" alt="Blog-title">
+            </div>
+    
+            <h3 id="blog--goto-post--title-id-41" class="title">
+                Custom Telemedicine Software Development: Key Features &amp; Cost
+            </h3>
+        </a>
+        
+        <p class="description">
+            Thinking about telemedicine software development? Learn more about the development stages, features, and cost of a custom telemedicine app.
+        </p>
+        <a class="read-more" href="/blog-post/telemedicine-software-development/">
+            <div>
+                Read more 
+            </div>
+            <div class="arrow"></div>
+        </a>	
+    </div>
+</div>
+                            
+                            
+
+<div class="posts-list-item">
+    <div class="posts-list-shadow">
+        
+        
+        
+        <a id="blog--goto-post--id-97" href="/blog-post/how-to-build-an-mvp-for-healthcare-product/">
+            <div class="text-center over-hid">
+                <img id="blog--goto-post--img-id-97" src="/media/cache/d0/97/d09747dc5086f8290700f749bb532d14.jpg" alt="Blog-title">
+            </div>
+    
+            <h3 id="blog--goto-post--title-id-97" class="title">
+                How to Create a Healthcare MVP: Steps, Benefits, and Challenges
+            </h3>
+        </a>
+        
+        <p class="description">
+            These four steps will help you build an MVP for healthcare software. Learn what requirements and challenges you should watch out for along the way.
+        </p>
+        <a class="read-more" href="/blog-post/how-to-build-an-mvp-for-healthcare-product/">
+            <div>
+                Read more 
+            </div>
+            <div class="arrow"></div>
+        </a>	
+    </div>
+</div>
+                            
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>
+   
+   
+   
+    <div class="content-footer content-footer-page-case-ucl content-footer-page-blog visible-xs-block">
+        <div class="bg-image"></div>
+        <div class="section-shadow"></div>
+        <div class="section-content">
+            <h3 class="section-title">
+                do not miss <i class="br-max-sm"></i>the new articles
+            </h3>
+
+            <form class="content-footer-email" id="form-subscribe-blog-post-footer" action="#">
+                <div class="form-required">
+                    <input class="form-control" name="email" type="email" placeholder="Enter your email address">
+                    <button id="blog-post--content-footer-subscribe--btn-subscribe" class="btn btn-getIt" type="submit">Subscribe</button>
+                </div>
+				<div class="text-center forms-thank hidden">
+					<p>THANK YOU FOR SUBSCRIBING!</p>
+					<p>We are glad that you are with us.</p>
+				</div>
+            </form>
+        </div>
+    </div>
+
+</main>
+
+<script>
+    var csrftoken = 'UQ48iOCj6QxXZuEla5ED7Nk5pQH8bpOwgoYb102yoILw0hMCsuKVnC5MsJDyQ5Ob',
+            urlSubscribeAjax = "/subscribe/",
+            urlBrochureAjax = "/get_article/";
+</script>
+
+
+
+
+
+<div class="modal fade modal-contact-form modal-thanks-dialog modal-subscribe-dialog" id="subscribe-dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button id="modal-thanks--subscribe--close" type="button" class="navbar-toggle navbar-toggle-close" data-dismiss="modal">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="content-header-page-contacts page-answer">
+                <div class="section-content">
+                    <h3 class="section-title">
+                        <strong>Thank you</strong>
+                        for subscribing!
+                    </h3>
+
+                    <p class="description text-center">
+                        We are glad that you are with us.
+                    </p>
+
+                    <div class="text-center">
+                        <a id="modal-thanks--subscribe--btn-goto-blog" class="btn btn-transparent" href="#" data-dismiss="modal">Back to Blog</a>
+                    </div>
+                </div>
+
+                <img class="content-header-cube" src="/static/img/icons/icon-cube-big.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-contact-form" id="free-advice-form" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button id="modal--free-advice--close" type="button" class="navbar-toggle navbar-toggle-close" data-dismiss="modal">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="content-header-page-contacts">
+                <div class="section-content text-center">
+                    <h2 class="section-title">LEAVE YOUR CONTACT DETAILS</h2>
+                    <p>
+                        We will be in touch shortly to schedule a call
+                    </p>
+                </div>
+            </div>
+
+            
+<div class="contacts-form">
+    <form method='POST' id='form-free-advice'>
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input form-required">
+                    <label for="free-advice-name" class="form-label">Name *</label>
+                    <input type="text" class="form-control" name="name" id="free-advice-name" value="">
+                    <p class="form-control-alert">
+                        Please input a correct name
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input form-required">
+                    <label for="free-advice-email" class="form-label">Email *</label>
+                    <input type="email" class="form-control" name="email" id="free-advice-email" value="">
+                    <p class="form-control-alert">
+                        Please input a correct email
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input form-required">
+                    <label for="free-advice-phone" class="form-label">Phone *</label>
+                    <input type="text" class="form-control" name="phone" id="free-advice-phone" value="">
+                    <p class="form-control-alert">
+                        Please input a correct Phone number
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input">
+                    <label for="free-advice-skype" class="form-label">Skype</label>
+                    <input type="text" class="form-control" name="skype" id="free-advice-skype" value="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <div class="form-group form-group-material form-g-m-input form-required">
+                    <label for="free-advice-description" class="form-label">Your request details *</label>
+                    <input type="text" class="form-control" name="description" id="free-advice-description" value="">
+                    <p class="form-control-alert">
+                        Please describe your request in a few words
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="text-center">
+            <button id='form--free-advice--btn-send' type="submit" class="btn btn-getIt">SEND</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    var csrftoken = 'UQ48iOCj6QxXZuEla5ED7Nk5pQH8bpOwgoYb102yoILw0hMCsuKVnC5MsJDyQ5Ob',
+            urlFreeAdviceAjax = "/advice/";
+</script>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<footer id="page-footer" class="page-footer">
+    <div class="container">
+        <div class="footer-logo-wrap">
+            <a id="site-logo--footer" class="footer-logo" href="/">
+                <img  src="/static/img/logo-footer.svg" alt="Demigos" title="Demigos">
+            </a>
+            <p class="rights">2024. Demigos. All Rights Reserved.</p>
+            <p class="rights"><a style="color:white;" href="/privacy/">Privacy Policy.</a></p>
+        </div>
+        <nav>
+            <div class="share-wrap">
+                <a id="nav-outer--header-mobile--facebook" class="share share-f" href="//www.facebook.com/demigoscompany" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a id="nav-outer--header-mobile--linkedin" class="share share-in" href="//www.linkedin.com/company/demigos/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a id="nav-outer--header-mobile--upwork" class="share share-up" href="//www.upwork.com/companies/~01604368bdd722aa11" target="_blank">
+                    <i class="icon-upwork"></i>
+                </a>
+            </div>
+        </nav>
+    </div>
+</footer>
+
+
+
+<div class="modal fade modal-contact-form modal-thanks-dialog" id="thanks-dialog" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button id="modal-thanks--main--close" type="button" class="navbar-toggle navbar-toggle-close" data-dismiss="modal">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="content-header-page-contacts page-answer">
+                <div class="section-content">
+                    <h3 class="section-title">
+                        <strong>Thank you,</strong>
+                        <span class="user-name"></span>!
+                    </h3>
+
+                    <p class="description text-center">
+                        Our teammate will be in touch with you shortly.
+                    </p>
+
+                    <div class="text-center">
+                        <a id="modal-thanks--subscribe--btn-goto-main" class="btn btn-transparent" href="/">Back to home</a>
+                    </div>
+                </div>
+
+                <img class="content-header-cube" src="/static/img/icons/icon-cube-big.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="ajax-request-wrap">
+    <div class="content-wrap">
+        <div class="title">
+            Sending...
+        </div>
+        <div class="lds-default">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/main.min.js" defer></script>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRRN5ZF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Facebook Pixel Code -->
+<script>
+setTimeout(function(){
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '1534963840159569');
+fbq('track', 'PageView');
+
+  }, 3000);
+</script>
+<noscript>
+ <img height="1" width="1"
+src="https://www.facebook.com/tr?id=1534963840159569&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<script>
+window.onload = function() {
+	if (!!window.location.hash && document.querySelector(window.location.hash)) {
+		var anchor = window.location.hash;
+		setTimeout(function() {
+			$('html, body').animate({
+				scrollTop: $(anchor).offset().top - 100
+			}, 0);
+		}, 200);
+	}
+}
+</script>
+<script type="text/javascript">
+setTimeout(function(){
+    (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+    vgo('setAccount', '90302184');
+    vgo('setTrackByDefault', true);
+    vgo('process');
+  }, 3000);
+</script>
+<script>
+setTimeout(function(){
+  (function(){
+    window.ldfdr = window.ldfdr || {};
+    (function(d, s, ss, fs){
+      fs = d.getElementsByTagName(s)[0];
+      function ce(src){
+        var cs  = d.createElement(s);
+        cs.src = src;
+        setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1);
+      }
+      ce(ss);
+    })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_lAxoEaKK6nWaOYGd.js');
+  })();
+  }, 3000);
+</script>
+<!-- Pinterest Tag -->
+<script>
+setTimeout(function(){
+!function(e){if(!window.pintrk){window.pintrk = function () {
+window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+  n=window.pintrk;n.queue=[],n.version="3.0";var
+  t=document.createElement("script");t.async=!0,t.src=e;var
+  r=document.getElementsByTagName("script")[0];
+  r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+pintrk('load', '2614081576917', {em: '<user_email_address>'});
+pintrk('page');
+
+}, 3000);
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt=""
+  src="https://ct.pinterest.com/v3/?event=init&tid=2614081576917&pd[em]=<hashed_email_address>&noscript=1" />
+</noscript>
+<!-- end Pinterest Tag -->
+
+</body>
+</html>
